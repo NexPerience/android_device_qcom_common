@@ -16,7 +16,7 @@ else
   ifneq ($(TARGET_LIBINIT_DEFINES_FILE),)
     LOCAL_SRC_FILES += ../../../../$(TARGET_LIBINIT_DEFINES_FILE)
   else
-    LOCAL_SRC_FILES += init_$(TARGET_BOARD_PLATFORM).c
+    LOCAL_SRC_FILES += init_falcon.c
   endif
 endif
 LOCAL_MODULE := libinit_msm
